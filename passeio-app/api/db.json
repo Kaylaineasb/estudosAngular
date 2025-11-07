@@ -1,0 +1,29 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "nome": "Restaurantes Atualizado",
+      "descricao": "Lugares para alimentação",
+      "id": "696f"
+    },
+    {
+      "id": "9d2a",
+      "nome": "Praias",
+      "descricao": "Lugar para tomar banho com a família"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "b2ce",
+      "nome": "Padaria Estrela do mar",
+      "categoria": "Restaurantes Atualizado",
+      "localizacao": "Estância",
+      "urlFoto": "adaee.com",
+      "avaliacao": "1"
+    }
+  ]
+}
