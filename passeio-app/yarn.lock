@@ -230,7 +230,7 @@
     yargs "18.0.0"
     zod "3.25.76"
 
-"@angular/common@^20.3.0", "@angular/common@20.3.10":
+"@angular/common@^20.3.0", "@angular/common@>=20.0.0", "@angular/common@20.3.10":
   version "20.3.10"
   resolved "https://registry.npmjs.org/@angular/common/-/common-20.3.10.tgz"
   integrity sha512-12fEzvKbEqjqy1fSk9DMYlJz6dF1MJVXuC5BB+oWWJpd+2lfh4xJ62pkvvLGAICI89hfM5n9Cy5kWnXwnqPZsA==
@@ -258,7 +258,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^20.0.0", "@angular/core@^20.3.0", "@angular/core@20.3.10":
+"@angular/core@^20.0.0", "@angular/core@^20.3.0", "@angular/core@>=20.0.0", "@angular/core@20.3.10":
   version "20.3.10"
   resolved "https://registry.npmjs.org/@angular/core/-/core-20.3.10.tgz"
   integrity sha512-g99Qe+NOVo72OLxowVF9NjCckswWYHmvO7MgeiZTDJbTjF9tXH96dMx7AWq76/GUinV10sNzDysVW16NoAbCRQ==
@@ -1348,6 +1348,13 @@ algoliasearch@5.35.0:
     "@algolia/requester-browser-xhr" "5.35.0"
     "@algolia/requester-fetch" "5.35.0"
     "@algolia/requester-node-http" "5.35.0"
+
+angular-oauth2-oidc@^20.0.2:
+  version "20.0.2"
+  resolved "https://registry.npmjs.org/angular-oauth2-oidc/-/angular-oauth2-oidc-20.0.2.tgz"
+  integrity sha512-bMSXEQIuvgq8yqnsIatZggAvCJvY+pm7G8MK0tWCHR93UpFuNN+L5B6pY9CzRg8Ys+VVhkLIBx4zEHbJnv9icg==
+  dependencies:
+    tslib "^2.5.2"
 
 ansi-escapes@^7.0.0:
   version "7.2.0"
@@ -4362,7 +4369,7 @@ totalist@^3.0.0:
   resolved "https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz"
   integrity sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==
 
-tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0:
+tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4.0, tslib@^2.5.2:
   version "2.8.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
