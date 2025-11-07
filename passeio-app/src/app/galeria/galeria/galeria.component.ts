@@ -14,7 +14,7 @@ export class GaleriaComponent implements OnInit{
   lugares: Lugar[] = [];
   categoriasFiltro: Categoria[] = [];
   nomeFiltro: string = '';
-  categoriaFiltro: string = '';
+  categoriaFiltro: string = '-1';
 
   constructor(
     private lugarService: LugarService,

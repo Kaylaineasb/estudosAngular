@@ -24,6 +24,14 @@
       "localizacao": "Estância",
       "urlFoto": "adaee.com",
       "avaliacao": "1"
+    },
+    {
+      "id": "c600",
+      "nome": "Praia do frances",
+      "categoria": "Praias",
+      "localizacao": "Maceio",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfK8CkHJYYRfb-tt8iuhOigX6YJVLD240dw&s",
+      "avaliacao": "5"
     }
   ]
 }

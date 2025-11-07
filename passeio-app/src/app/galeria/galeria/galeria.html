@@ -11,7 +11,7 @@
                 name="categoriaFiltro" 
                 [(ngModel)]="categoriaFiltro"
                 class="w-full border border-gray-300 p-2 rounded shadow-sm focus:ring focus:ring-blue-400">
-                <option [value]="">Todas as Categorias</option>
+                <option value="-1">Todas as Categorias</option>
                 <option [value]="cat.nome" *ngFor="let cat of categoriasFiltro">{{cat.nome}}</option>
             </select>
             <button (click)="filtrar()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">
@@ -21,7 +21,7 @@
     </div>
 </form>
 
-<div id="lugaresList" class="p-4 grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div id="lugaresList" class="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="bg-white shadow rounded overflow-hidden" *ngFor="let lugar of lugares">
         <img [src]="lugar.urlFoto" [alt]="lugar.nome" class="w-full h-40 object-cover">
         <div class="p-4">
