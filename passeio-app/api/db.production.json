@@ -1,0 +1,37 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "nome": "Restaurantes Atualizado",
+      "descricao": "Lugares para alimentação",
+      "id": "696f"
+    },
+    {
+      "id": "9d2a",
+      "nome": "Praias",
+      "descricao": "Lugar para tomar banho com a família"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "b2ce",
+      "nome": "Padaria Estrela do mar",
+      "categoria": "Restaurantes Atualizado",
+      "localizacao": "Estância",
+      "urlFoto": "adaee.com",
+      "avaliacao": "1"
+    },
+    {
+      "id": "c600",
+      "nome": "Praia do frances",
+      "categoria": "Praias",
+      "localizacao": "Maceio",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfK8CkHJYYRfb-tt8iuhOigX6YJVLD240dw&s",
+      "avaliacao": "5"
+    }
+  ]
+}

@@ -3,25 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "passeio-app": {
+    "projeto-inicial": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss",
-          "standalone": false,
-          "skipTests": true
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
-        },
-        "@schematics/angular:service": {
-          "skipTests": true
-        },
-        "@schematics/angular:class": {
-          "skipTests": true
+          "style": "scss"
         }
       },
       "root": "",
@@ -44,18 +30,11 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "src/output.css"
+              "src/styles.scss"
             ]
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.production.ts"
-                }
-              ],
               "budgets": [
                 {
                   "type": "initial",
@@ -73,13 +52,7 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true,
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.development.ts"
-                }
-              ]
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"
@@ -88,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "passeio-app:build:production"
+              "buildTarget": "projeto-inicial:build:production"
             },
             "development": {
-              "buildTarget": "passeio-app:build:development"
+              "buildTarget": "projeto-inicial:build:development"
             }
           },
           "defaultConfiguration": "development"
