@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, numberAttribute } from '@angular/core';
 import { CardButton } from "../card-button/card-button";
 
 interface IPlano{
@@ -16,7 +16,7 @@ interface IInfos{
   styleUrl: './card.scss',
 })
 export class CardComponent {
-  @Input({ required: true }) planPrice: number = 0;
+  @Input({ required: true, transform: numberAttribute }) planPrice: number = 0;
 
   private _planType: string = '';
 
